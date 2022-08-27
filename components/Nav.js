@@ -10,7 +10,7 @@ function Nav() {
             {Object.entries(request).map(([key, { title, url }]) => (
                 <h2 key={key}
                 onClick={() => router.push(`/?genre=${key}`)}
-                className="last:pr-24 cursor-pointer
+                className="font-bold last:pr-24 cursor-pointer
                 transition duration-100 transform hover:scale-125
                  hover:text-yellow-300 active:text-red-500">
                     {title}
